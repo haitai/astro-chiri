@@ -3,10 +3,10 @@ import type { ThemeConfig } from './types'
 export const themeConfig: ThemeConfig = {
   // SITE INFO ///////////////////////////////////////////////////////////////////////////////////////////
   site: {
-    website: 'https://b.huhaitai.com/', // Site domain
-    title: 'Haitai Hub', // Site title
-    author: 'haitai', // Author name
-    description: 'Minimal blog built by Astro', // Site description
+    website: 'https://d5.us.ci/', // Site domain
+    title: 'D5', // Site title
+    author: 'D5', // Author name
+    description: "I'm tired", // Site description
     language: 'zh-CN' // Default language
   },
 
@@ -23,7 +23,7 @@ export const themeConfig: ThemeConfig = {
   // DATE SETTINGS ///////////////////////////////////////////////////////////////////////////////////////
   date: {
     dateFormat: 'YYYY-MM-DD', // Date format: YYYY-MM-DD, MM-DD-YYYY, DD-MM-YYYY, MONTH DAY YYYY, DAY MONTH YYYY
-    dateSeparator: '.', // Date separator: . - / (except for MONTH DAY YYYY and DAY MONTH YYYY)
+    dateSeparator: '-', // Date separator: . - / (except for MONTH DAY YYYY and DAY MONTH YYYY)
     dateOnRight: true // Date position in post list (true for right, false for left)
   },
 
@@ -34,6 +34,6 @@ export const themeConfig: ThemeConfig = {
     imageViewer: true, // Enable image viewer
     copyCode: true, // Enable copy button in code blocks
     linkCard: true, // Enable link card
-    katex: true // Enable KaTeX math rendering
+    katex: false // Enable KaTeX math rendering
   }
 }
