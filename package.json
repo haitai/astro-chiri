@@ -27,7 +27,7 @@
     "astro-og-canvas": "^0.13.2",
     "canvaskit-wasm": "^0.42.0",
     "feed": "^6.0.0",
-    "katex": "^0.19.0",
+    "katex": "^0.19.1",
     "markdown-it": "^15.0.3",
     "mdast-util-to-string": "^4.0.0",
     "node-html-parser": "^9.0.5",
@@ -37,23 +37,23 @@
     "remark-math": "^6.0.0",
     "sanitize-html": "^2.18.1",
     "sharp": "^0.35.5",
-    "unist-util-visit": "^5.1.0"
+    "unist-util-visit": "^5.2.0"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.10",
+    "@astrojs/check": "^0.9.12",
     "@eslint/js": "^10.0.1",
     "@types/markdown-it": "^14.2.0",
     "@types/sanitize-html": "^2.16.2",
-    "@typescript-eslint/eslint-plugin": "^8.71.2",
-    "@typescript-eslint/parser": "^8.71.2",
+    "@typescript-eslint/eslint-plugin": "^8.72.0",
+    "@typescript-eslint/parser": "^8.72.0",
     "eslint": "^10.13.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-astro": "^3.2.1",
     "globals": "^17.13.0",
     "prettier": "^3.9.10",
-    "prettier-plugin-astro": "^1.1.1",
+    "prettier-plugin-astro": "^1.1.2",
     "tsx": "^4.23.15",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.71.2"
+    "typescript-eslint": "^8.72.0"
   }
 }
